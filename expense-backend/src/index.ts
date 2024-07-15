@@ -41,7 +41,7 @@ app.get('/', (req: Request, res: Response ) => {
 });
 
 app.get('/info', (req: Request, res: Response ) => {
-    logger.info('Accessed the info endpoint');
+    logger.info('Accessed. the info endpoint');
     res.send('This is the info endpoints');
 });
 
